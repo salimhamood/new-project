@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+
+    
+    <nav>
+        <a href="welcome.html">Welcome</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">History </a>
+        <a href="registed.html">Registration</a>
+        <a href="contact.html">Contact us</a>
+    </nav>
+        <header class="shaped-header">
+            <h1 style="font-family: cursive;">Event Registration</h1>
+        </header>  
+
+    <div class="contenty">
+        <form id="registrationForm" onsubmit="validateForm(event)">
+            <table>
+                <tr>
+                    <td><label for="firstName">First Name:</label></td>
+                    <td><input type="text" id="firstName" name="firstName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last Name:</label></td>
+                    <td><input type="text" id="lastName" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="phoneNumber">Phone Number:</label></td>
+                    <td><input type="tel" id="phoneNumber" name="phoneNumber" required></td>
+                </tr>
+                <tr>
+                    <td><label for="eventSelection">Event Selection:</label></td>
+                    <td>
+                        <select id="eventSelection" name="eventSelection" required>
+                            <option value="" disabled selected>Select an event</option>
+                            <option value="openingCeremony">Opening Ceremony</option>
+                            <option value="culturalExhibition">Cultural Exhibition</option>
+                            <!-- Add more events as needed -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Register">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Event Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

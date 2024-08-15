@@ -1,0 +1,229 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f1; 
+}
+.content{
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+
+.frame {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.shaped-header {
+    background: linear-gradient(to bottom, #3498db, #2c3e50); 
+    text-align: center;
+    padding: 50px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    color: #fff;
+}
+
+.shaped-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: black; /* Example header color */
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+p {
+    line-height: 1.6;
+    color:teal;
+    font-weight: bolder;
+}
+
+
+
+nav {
+    background-color:#fff;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color:red;
+    color: black;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add more styles as needed */
+
+
+
+/* Your styles.css file */
+
+
+
+
+/*events pages*/
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+
+.frame1 {
+    text-align: center;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/*gallery page*/
+
+
+
+img {
+    max-width: 100%;
+    height: 150px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified height */
+}
+
+.contentx {
+    padding: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.framex {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*register page */
+
+
+
+.contenty {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+td {
+    padding: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #267bbd;
+}
+
+
+/*contact page*/
+
+
+
+
+
+
+
+
+.contenty {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.framey {
+    width: 45%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+
